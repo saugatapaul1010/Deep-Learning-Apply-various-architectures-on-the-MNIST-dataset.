@@ -22,3 +22,14 @@ d. Try the following model architectures:
 8. MNIST + ReLU Activation + ADAM optimzer + Dropout + Batch Normalization + He initialization. Model Architecture: 784-32-32-32-32-32-32-10 ===> 6 Hidden Layers
 
 CNN on MNIST Dataset.
+
+a. Load the MNIST dataset using Keras.
+b. Perform data visualization using PCA and t-SNE
+c. Plot the train and validation loss for each architecture and choose the number of epochs for which the model doesn't overfit/underfit.
+d. Try the following model architectures: 
+
+1. CNN Architecture 1: 3 CNN Layers each of 3X3 Kernels.
+2. CNN Architecture 2: 5 CNN Layers each of 5X5 Kernels.
+3. CNN Architecture 3: 7 CNN Layers each of different Kernels.
+
+e. Plot the train as well as the validation loss to get an idea of when a model is overfitting/underfitting.
